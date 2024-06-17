@@ -1,0 +1,25 @@
+name: flutterapp
+description: "A new Flutter project."
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2  # Dependencia para iconos de Cupertino
+  sqflite_mysql1: ^0.0.6  # Ejemplo de paquete para conexión directa a MySQL desde Flutter
+    http: ^0.13.3  # Paquete para hacer peticiones HTTP
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0  # Para mantener el código limpio y seguir buenas prácticas
+
+flutter:
+  uses-material-design: true  # Indica que la aplicación utiliza el diseño de Material Design
+
+flutter:
+  assets:
+    - assets/logo.jpg
